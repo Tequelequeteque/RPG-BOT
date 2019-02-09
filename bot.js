@@ -15,4 +15,10 @@ bot.on('message', async (message) => {
         case 'ping': return message.channel.send('pong');
     }
 });
+bot.on('message', async (message) => {
+    switch (message.content) {
+        case 'leroyy': return message.channel.send('jankens');
+    }
+});
+
 bot.login(config.token);
