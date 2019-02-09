@@ -1,0 +1,22 @@
+{
+  "name": "rpg-bot",
+  "version": "1.0.0",
+  "description": "RPG BOT",
+  "main": "bot.js",
+  "dependencies": {
+    "discord.js": "^11.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^1.18.10"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://Tequelequeteque@bitbucket.org/Tequelequeteque/rpg-bot.git"
+  },
+  "author": "Guilherme Gomes",
+  "license": "ISC",
+  "homepage": "https://bitbucket.org/Tequelequeteque/rpg-bot#readme"
+}
