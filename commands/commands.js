@@ -1,7 +1,7 @@
-exports.commands = async (message) => {
+exports.commands = async (bot, message) => {
     const prefix = require('../config.json').prefix;
-    const utils =  require('./utils');
+    const utils = require('./utils');
     switch (message.content) {
-        case `${prefix}ping`: return await utils.ping(message);
+        case `${prefix}ping`: return await utils.ping(bot, message);
     }
 }

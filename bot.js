@@ -13,7 +13,7 @@ bot.on('ready', async _ => {
     }
 });
 
-bot.on('message', (message)=> commands(message));
+bot.on('message', (message) => commands(bot, message));
 bot.on
 bot.login(config.token);
 
