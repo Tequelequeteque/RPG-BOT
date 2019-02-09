@@ -13,10 +13,6 @@ bot.on('ready', async _ => {
 bot.on('message', async (message) => {
     switch (message.content) {
         case 'ping': return message.channel.send('pong');
-    }
-});
-bot.on('message', async (message) => {
-    switch (message.content) {
         case 'leroyy': return message.channel.send('jankens');
     }
 });
