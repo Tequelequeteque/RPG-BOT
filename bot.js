@@ -14,11 +14,5 @@ bot.on('ready', async _ => {
 });
 
 bot.on('message', (message) => commands(bot, message));
-bot.on
+// bot.on('messageUpdate', (message) => commands(bot, message));
 bot.login(config.token);
-
-// const commands = async (message) => {
-//     switch (message.content) {
-//         case 'ping': return await message.channel.send('pong');
-//     }
-// }
