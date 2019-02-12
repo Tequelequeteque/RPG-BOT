@@ -13,6 +13,5 @@ bot.on('ready', async _ => {
     }
 });
 
-bot.on('message', (message) => commands(bot, message));
-// bot.on('messageUpdate', (message) => commands(bot, message));
+bot.on('message',  async (message) => commands(bot, message));
 bot.login(config.token);
